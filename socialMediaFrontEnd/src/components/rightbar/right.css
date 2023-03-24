@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rightbar{
+    margin-top: 5rem;
+    flex: 4;
+    /* border: 2px solid rebeccapurple; */
+}
+.bithday-wrapper{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+}
+.bithday-img{
+    height: 50px;
+    width: 50px;
+    margin-right: 1rem;
+}
+.bithday-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.birthday-text{
+    font-size: 1.2rem;
+}
+.birthday-text span{
+    font-weight: 300;
+}
+.ad{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ad img{
+    width: 80%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.online-freinds{
+    margin-top: 2rem;
+}
+.online{
+    font-size: 1.3rem;
+}
+.i1{
+    color: red;
+}
+.i2{
+    color: blue;
+}
+.i3{
+    color: green;
+}
+.i4{
+    color: yellow;
+}
+.online-box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: .7rem;
+}
+.onlineFreind-img{
+    margin-top: 1rem;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid black; */
+}
+.onlineFreind-img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.online-symbol{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 0rem;
+    right: .2rem;
+}
+.online-text{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.profileInfoKey{
+    font-weight: 300;
+    margin-right: .5rem;
+}
+.profileInfoValue{
+    font-weight: 300;
+}
+.profileInfoItem{
+    margin: .5rem 0rem;
+}
+.profileFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.profileFollowings{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profileFollowing{
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.userFreindsTitle{
+    margin: 2rem 0rem 0.2rem 0rem;
+}

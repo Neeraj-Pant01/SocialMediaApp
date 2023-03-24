@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.feed{
+    flex: 5;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+.feed-box{
+    width: 90%;
+    height: 20vh;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 1rem;
+}
+.feedbox-top{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.feedbox-top-img{
+    width: 50px;
+    height: 50px;
+}
+.feedbox-top img{
+    width: 100%;
+    border-radius: 50%;
+}
+.feedbox-top input{
+    width: 90%;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+.feedbox-top-hr{
+    margin-top: 1rem;
+    width: 90%;
+    margin-left: 1.5rem;
+    background-color: grey;
+}
+.feedbox-bottom{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.shared-options{
+    display: flex;
+    align-items: center;
+}
+.shared-icon{
+    font-size: 1.4rem;
+    margin-right: .1rem;
+}

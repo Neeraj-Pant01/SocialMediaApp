@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.leftbar{
+    flex: 3;
+    height: calc(100vh - 70px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 5rem;
+}
+.iconsList{
+    /* border: 2px solid rebeccapurple; */
+}
+.leftbarListItem{
+    display: flex;
+    align-items: center;
+}
+.leftbarIcon{
+    margin-left: 2rem;
+    font-size: 1.3rem;
+}
+.leftbarListText{
+    margin-left: 1.2rem;
+    padding: 1rem 0rem;
+    font-weight: 500;
+}
+.icon-btn{
+    background-color: rgb(214, 210, 210);
+    padding: .5rem 1rem;
+    border: none;
+    margin: 1rem 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: .3rem;
+}
+.leftbar hr{
+    width: 90%;
+    margin-left: 5%;
+}
+.freindImg{
+    width: 50px;
+    height: 50px;
+}
+.freindImg img{
+    width: 100%;
+    border-radius: 50%;
+}
+.leftbar-freinds{
+    margin-left: 2rem;
+}
+.freindsList{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.freind-name{
+    margin-left: 1rem;
+}

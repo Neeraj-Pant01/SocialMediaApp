@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.brandname{
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+.topbar{
+    /* margin-top: 10px; */
+    display: flex;
+    background-color: rgb(8, 138, 224);
+    height: 7vh;
+    position: fixed;
+    z-index: 303;
+    width: 100vw;
+}
+.left{
+    flex: 3;
+    background-color: rgb(8, 159, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.mid{
+    flex: 4;
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: rgb(8, 159, 224);
+    padding: 1px;
+    align-items: center;
+}
+.search-inp{
+    display: flex;
+    background-color: white;
+    height: 60%;
+    width: 100%;
+    border-radius: 1rem;
+}
+.search-icon{
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+.btn{
+    margin-left: 1rem;
+    border-radius: 50%;
+}
+.profile-icons{
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 1rem;
+}
+.mid input{
+    outline: none;
+    border: none;
+    margin-left: 1rem;
+    width: 86%;
+    border-radius: 1rem;
+    padding: 0rem 1rem;
+}
+.right{
+    flex: 4;
+    background-color: rgb(8, 159, 224);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rightImg{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.rightImg img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rightLinks{
+    color: white;
+}
+.rightLinks span{
+    margin-right: 1rem;
+}
+.rightIcons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightIcons button{
+    margin-right: 1rem;
+}
